@@ -1,0 +1,36 @@
+header {color: red;
+        font-size:24px;
+        background-color: slategray;
+        text-align:center;}
+
+.test1 {color:brown;
+        background-color: blue;
+        margin-left:160px;}
+
+.test2 {color:aquamarine;
+        background-color:yellowgreen;}
+
+.test3 {color:sienna;
+        background-color:darkgreen;}
+
+.test4 {color:gold;
+        background-color:hotpink;}
+
+.test5 {color:red;
+        background-color:wheat;}
+
+.test6 {margin:auto;
+        width:200px;
+        color:aliceblue;
+        background-color: slategray;}
+
+.vid1  {height:300px;
+        width:40%;
+        float:left;}
+
+.vid2 { height:300px;
+        width:30%;
+        float:left;}
+.vid3 { height:300px;
+        width:30%;
+        float:left;}

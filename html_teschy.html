@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Это название окошка в браузере </title>
+    <link rel="stylesheet" href="css_test.css">
+</head>
+<body>
+
+    <header>
+        <a href="">
+            <img src="tyt/half.jpg" height="300" alt="gg">
+        </a>
+<ul> Содержание +- (Причём точки не уехали в центр. Цвет ссылки не меняется при задании цвета у класса хеадер - не рабочая ссылка изменила цвет)
+ 
+<li>  нерабочая ссылка  </li>
+<li> <a href="#"> ссылка на </a> </li>
+<li> <a href="#"> ссылка на </a> </li>
+</ul>
+</header><br><br><hr>
+<!-- header это шапка сайта. При нажатии на картинку будет переход по ссылке -->
+
+
+<ul class="test3" type = "1">
+    <li  class="test2" type = "1"> табл 1
+    <ul>
+        <li class="test1" type = "1"> <i> текст <sup> 2 </sup> </i> </li>
+        <li type = "a"> текст <sup class="test1"> 2 </sup> </li>
+        <li type = "I"> <div class="test5"> text <sup> 3 </sup> </div></li>
+        <li type = "1"> <div class="test4"> text </div> <sup> 3 </sup> </li>
+    </ul>
+    </li>
+    <li class="test6" type = "circle"> тут 2 </li>
+    <li type = "square"> тут 3 </li>
+    <li type = "1"> тут 4 </li>
+</ul><br><br><hr>
+<!-- атрибут тайп 1 ниже был перебит другим тайпом. Это были списки -->
+
+
+<p> Table </p>
+<table border = "1">
+    <thead > 
+        <th>TYT Table test заголовок1 </th> 
+        <th>TYT Table test заголовок2 </th> 
+        <th>TYT Table test заголовок3 </th> 
+    </thead>
+    <tbody>
+<tr>
+<td> text <img src="tyt/fist.jpg" width ="100" height = "100" alt="gg" >
+              first 1 </td>
+    <td align="right"> text <img src="tyt/bers.png" width ="100" height = "100" alt="gg"> second 1 </td>
+    <td align = "center" rowspan="2">
+              third 1 </td>
+</tr>
+<tr>
+    <td>        <h1> first 2 </h1></td>
+    <td align="center"> (<--сравни)
+                     second 2 <br> (слева не в центре)</td>
+</tr>
+<tr>
+    <td align="right"> first 3 </td>
+    <td colspan="2" rowspan="2"> second 3 </td>
+</tr>
+    </tbody>
+</table> <br><br><hr>
+<!--  Тут были таблицы-->
+
+<a href="1.png">1----открыть картинку, которая там же где и блокнот</a><br>
+<a href="tyt/2.jpg" target="blank">2----открыть картинку, которая в папке рядом с блокнотом, причём в новом окне</a><br><br>
+
+<img class="vid1" src="1.png" alt="gg" >
+
+<video src="tyt/larrat.mp4" class="vid2"  controls alt="gg" ></video>
+<div class="vid3"></div>
+<!--  Тэг имг не парный в отличии от видео. Использовал пустой div с классом, чтобы пространство справа не заполнялось текстом ниже -->
+
+<p>-------ФОРМЫ ------------- ------------- -----------</p>
+<form method = "post" action=""> 
+
+    <label>ЛОГИН
+    <input type="text" name="loginnn" value="Сюда"></label><br>
+    <br>
+    <label> ПОРОЛЬ
+    <input type="password" name="passw" placeholder="Тут пороль"></label><br>
+<br>
+<input type="submit" value="Отправить"><br>
+<button type="submit">Аналог кнопки</button>
+<br>
+
+<!--  Про пол - радио-->
+<label>
+    <input type="radio" name="пол" value="м" checked> Муж </label><br>
+<label>
+    <input type="radio" name="пол" value="ж"> Жен </label><br>
+<!--  Про пол - радио-->
+
+
+<!--  Аналог пола - фиелдсет-->
+<fieldset>
+    <legend> POL </legend>
+    <label>
+        <input type="radio" name="пол" value="м" checked> Муж </label>
+    <label>
+        <input type="radio" name="пол" value="ж"> Жен </label>
+</fieldset>  <br>
+<!--  Аналог пола - фиелдсет-->
+
+
+<!--  выбор 1 из 3 либо, с добавлением атрибуда мултиплай, сколько угодно много -->
+<select name="place" multiple>
+<option value="1"> first </option>
+<option value="2"> second </option>
+<option value="3"> third </option>
+</select><br>
+<!--  выбор 1 из 3 либо, с добавлением атрибуда мултиплай, сколько угодно много -->
+
+
+<!--  Выбор нескольких из предложенного -->
+<fieldset>
+    <legend> Что важно ? </legend>
+<label> <input type="checkbox" value="" > HTML </label>
+<label> <input type="checkbox" value="" > CSS </label>
+<label> <input type="checkbox" value="" > JS </label>
+<label> <input type="checkbox" value="" > Git </label>
+</fieldset><br>
+<!--  Выбор нескольких из предложенного -->
+
+<!--  Комментарии + attach file, причём при атрибуте мультиплай можно много чего прикрепить -->
+<textarea name="comment" placeholder="Пиши коммент. Обычно отключают возможность растягивать это окно. Прошу тебя прикрепить файл ниже" id="" cols="30" rows="10"></textarea><br>
+<input type="file" multiple>
+<!--  Комментарии + attach file, причём при атрибуте мультиплай можно много чего прикрепить-->
+
+
+
+</form>
+
+
+
+<br><br>
+<br><hr>
+
+
+
+
+
+
+</body>
+</html>
